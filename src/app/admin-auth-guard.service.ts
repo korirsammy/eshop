@@ -5,6 +5,7 @@ import { CanActivate } from '@angular/router';
 import { Injectable } from '@angular/core';
 import 'rxjs/add/operator/map';
 import { switchMap, map } from 'rxjs/operators';
+import 'rxjs/add/operator/take'; 
 
 @Injectable()
 export class AdminAuthGuard implements CanActivate {
